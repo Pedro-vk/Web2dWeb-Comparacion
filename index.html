@@ -15,9 +15,9 @@
 <div id='divCanvas2'><canvas id="canvasView2" width='650' height='300'></canvas></div>
 
 <div style="top:-9999px;left:-9999px;">
-	<img src='http://img.genbetadev.com/galleries/box2dweb/pc0.png'>
-	<img src='http://img.genbetadev.com/galleries/box2dweb/pc1.png'>
-	<img src='http://img.genbetadev.com/galleries/box2dweb/pc2.png'>
+	<img src='img/pc0.png'>
+	<img src='img/pc1.png'>
+	<img src='img/pc2.png'>
 </div>
 
 <script>
@@ -114,7 +114,7 @@ function decorate(ctx, image){
 
 	if(image){
 		var img = new Image();
-		img.src = "http://img.genbetadev.com/galleries/box2dweb/fondo.jpg";
+		img.src = "img/fondo.jpg";
 		ctx.drawImage(img, 0, 0);
 	}else{
 		ctx.fillStyle='#ffffff';
@@ -146,7 +146,7 @@ function decorate(ctx, image){
 
 	if(image){
 		var img = new Image();
-		img.src = "http://img.genbetadev.com/galleries/box2dweb/popcorn.png";
+		img.src = "img/popcorn.png";
 		ctx.drawImage(img, 0, 0);
 	}
 
@@ -167,7 +167,7 @@ function decorate(ctx, image){
 			ctx.fill();
 		}else{
 			var img = new Image();
-			img.src = "http://img.genbetadev.com/galleries/box2dweb/pc"+(balls[i].imgType)+".png";
+			img.src = "img/pc"+(balls[i].imgType)+".png";
 
 			var RL = 4; // sobrante imagen
 
@@ -181,7 +181,7 @@ function decorate(ctx, image){
 
 	if(image){
 		var img = new Image();
-		img.src = "http://img.genbetadev.com/galleries/box2dweb/front.png";
+		img.src = "img/front.png";
 		ctx.drawImage(img, 0, 0);
 	}
 }
